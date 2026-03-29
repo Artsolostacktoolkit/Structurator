@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net10.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+		<NoWarn>$(NoWarn);NU1701;NU1510;NU1605;MSBL001</NoWarn>
+		<ApplicationIcon>Resources\App.ico</ApplicationIcon>
+		<AssemblyTitle>StructureSnap</AssemblyTitle>
+	</PropertyGroup>
+	
+	<!-- MSBuild Locator (должен быть в runtime) -->
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Build.Locator" Version="1.11.2" />
+	</ItemGroup>
+
+	<!-- MSBuild пакеты (только для компиляции, НЕ для runtime) -->
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Build" Version="18.4.0" ExcludeAssets="runtime" PrivateAssets="all" />
+		<PackageReference Include="Microsoft.Build.Framework" Version="18.4.0" ExcludeAssets="runtime" PrivateAssets="all" />
+		<PackageReference Include="Microsoft.Build.Tasks.Core" Version="18.4.0" ExcludeAssets="runtime" PrivateAssets="all" />
+		<PackageReference Include="Microsoft.Build.Utilities.Core" Version="18.4.0" ExcludeAssets="runtime" PrivateAssets="all" />
+	</ItemGroup>
+
+	<!-- Графика и JSON -->
+	<ItemGroup>
+		<PackageReference Include="System.Drawing.Common" Version="10.0.5" />
+		<PackageReference Include="System.Text.Json" Version="10.0.5" />
+		<Resource Include="Resources\App.ico">
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+	</ItemGroup>
+
+</Project>
