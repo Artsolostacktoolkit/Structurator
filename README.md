@@ -16,43 +16,7 @@
 ![Демо](Demo.gif)
 
 ---
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareSourceCode",
-  "name": "Структуратор 1.0",
-  "description": "Утилита для экспорта структуры проекта Visual Studio в форматы JSON, PNG, Tree, CSV и Markdown. Поддержка MVVM, .NET 10, WPF, очистка комментариев.",
-  "author": {
-    "@type": "Person",
-    "name": "Зиновьев Артём Александрович",
-    "url": "https://gitflic.ru/user/solostacktoolkit"
-  },
-  "creator": {
-    "@type": "Organization",
-    "name": "solostacktoolkit"
-  },
-  "codeRepository": "https://gitflic.ru/project/solostacktoolkit/structurator",
-  "programmingLanguage": "C#",
-  "runtimePlatform": [".NET 10.0", "WPF"],
-  "operatingSystem": "Windows",
-  "keywords": "WPF, C#, DotNet, VisualStudio, ProjectStructure, Exporter, JSON, Tree, CSV, Documentation, MVVM, Russia, GitFlic, Markdown, CodeAnalysis",
-  "license": "https://www.gnu.org/licenses/gpl-3.0.html",
-  "version": "1.0.0",
-  "dateCreated": "2026-03-09",
-  "applicationCategory": "DeveloperApplication",
-  "softwareRequirements": ".NET 10.0-windows",
-  "featureList": [
-    "Экспорт в 4 формата: JSON, PNG, Tree, CSV",
-    "Сбор кода в Markdown для удобства",
-    "Селективная очистка комментариев",
-    "Поддержка больших решений с прогресс-баром",
-    "MVVM-архитектура с зависимостями",
-    "Тёмная тема с зелёными акцентами",
-    "Перетаскивание окна без заголовка",
-    "Полностью отечественная разработка"
-  ]
-}
-</script>
+
 
 ---
 
